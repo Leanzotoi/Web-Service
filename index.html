@@ -1,0 +1,47 @@
+<html>
+ <head> 
+  <title> Teste PHP - Página inicial </title>
+  <meta charset="utf-8">
+   <style type="text/css">
+    <!--
+    body { 
+	   background-image:url(http://sindusplan.com.br/wp-content/uploads/2015/01/C%C3%B3pia-de-fundo.jpg);
+	   background-repeat: no-repeat;
+	   background-attachment: scroll;
+	}
+    -->
+	</style>
+ </head>
+   <body>
+	<div>
+	<h1 align="center"> Despesas </h1> 
+	<table border=1 align="center">
+	 <form method="post" action="despesa.php">
+	 
+	 <tr><td> Data de emissão: 
+	  <td><input type="date" name="emissao">
+	   
+	    <tr><td>Nº Nota Fiscal: 
+	  <td><input type="number" name="nota">
+	   
+	  <tr><td> Valor: 
+	  <td> <input type="number" name="valor">
+	   
+	 <tr><td>  Descrição: 
+	  <td> <input type="text" name="descricao">
+	   
+	  <tr><td> Observação : 
+	  <td> <input type="text" name="observacao">
+	   
+	 <tr><td>  Data Criação: 
+	  <td> <input type="date" name="datacri">
+	   
+	  <tr><td> Data de atualização : 
+	  <td> <input type="date" name="dataatua">
+	   
+	   <tr><td> <input type="submit" value="Cadastrar">
+	 </form>
+	 </table>
+    </div>
+   </body>
+</html>
